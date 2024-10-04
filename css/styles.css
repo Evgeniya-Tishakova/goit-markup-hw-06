@@ -121,7 +121,7 @@ display: none;
 
  .header-logo {
    display: block;
-   padding: 24px 0;
+   padding: 16px 0;
    margin-right: 120px;
  }
 
@@ -341,6 +341,9 @@ color: #2e2f42;
 transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.mobile-nav-link.current {
+color: #404bbf;
+}
 
 .mobile-nav-link:hover,
 .mobile-nav-link:focus {
@@ -368,6 +371,10 @@ letter-spacing: 0.02em;
 color: #434455;
 transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 ;
+}
+
+.mobile-address-link.current {
+   color: #4d5ae5;
 }
 
 .mobile-address-link:hover,
@@ -554,7 +561,7 @@ margin-bottom: 0;
   .section.hero {
    padding-top: 188px;
    padding-bottom: 188px;
-   max-width: 1158px;
+   max-width: 1440px;
    }
 
  .hero-title {
@@ -610,7 +617,7 @@ margin-bottom: 48px;
 
 
 .hidden-item-title {
-font-weight: 500;
+font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
 letter-spacing: 0.02em;
@@ -620,6 +627,7 @@ margin-bottom: 8px;
 }
 
 .hidden-item-descr {
+font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -657,6 +665,8 @@ color: #434455;
 
 .container.benefits {
    max-width: 1158px;
+   padding-left: 15px;
+  padding-right: 15px;
 }
 
 .hidden-item {
@@ -678,13 +688,18 @@ justify-content: center;
 }
 
 .hidden-item-title {
-
+font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 }
 
+.hidden-item-descr {
+font-weight: 400;
 }
+
+}
+
 
 /*======== team =========*/
 
@@ -1245,9 +1260,9 @@ transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-b
    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
    overflow: auto;
    padding-top: 72px;
-   padding-left: 24px;
+   padding-left: 16px;
    padding-right: 16px;
-   padding-bottom: 16px ;
+   padding-bottom: 24px ;
 }
 
 .backdrop:not(.is-open) .modal {
@@ -1481,8 +1496,8 @@ margin-bottom: 24px;
 .modal {
    width: 408px;
    min-height: 584px;
-   padding-right: 16px;
-   padding-bottom: 16px ;
+   padding-right: 24px;
+   padding-bottom: 24px ;
 }
 
 }
